@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background-color: #0D1B2A;
+    --main-memu-color: #99C6FF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+body {
+    background-color: #0D1B2A;
+    font-family: inter;
+}
+
+.Upcoming-container {
+    background-color: #0f2236;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21px;
+    position: relative;
+    left: 272px;
+    top: 162px;
+    width: 483px;
+    height: 52px;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.all-upcoming {
+    background-color: rgba(15, 34, 54, 1);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.all-upcoming h2 {
+    color: #c9a84c;
+    opacity: 100%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.this-week {
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.this-week{
+    color: #99C6FF;
+}
+
+.all-cases h2 {
+    font-size: 20px;
+    color: #99C6FF;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.court-container {
+    width: 1143px;
+    height: 664px;
+    border: #00A7E4 0.5px solid;
+    position: relative;
+    left: 263px;
+    top: 265px;
+    border-radius: 12px;
+}
+
+.court-container h2 {
+    color: #fff;
+    padding: px;
+}
